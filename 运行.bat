@@ -18,10 +18,10 @@ goto :eof
 
 :1 
 echo 录入 
-D:\Projects\qt\venv\Scripts\python.exe D:/tizen/Documents/GitHub/WebRoad/Python/Python-mongodb-practice/录入.py
+D:\Projects\qt\venv\Scripts\python.exe D:/tizen/Documents/GitHub/WebRoad/Python/Python-practice/录入.py
 goto :caozuo 
 
 :2 
 echo 查询 
-D:\Projects\qt\venv\Scripts\python.exe D:/tizen/Documents/GitHub/WebRoad/Python/Python-mongodb-practice/查询.py
+D:\Projects\qt\venv\Scripts\python.exe D:/tizen/Documents/GitHub/WebRoad/Python/Python-practice/查询.py
 goto :caozuo
