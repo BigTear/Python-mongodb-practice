@@ -67,8 +67,8 @@ if __name__ == "__main__":
     con = sqlite3.connect("data.db", check_same_thread=False)
     cur = con.cursor()
 
-    webbrowser.open_new_tab("http://localhost:8880")
-    start_server(main, port=8880, debug=True)
+    webbrowser.open_new_tab("http://localhost:8088")
+    start_server(main, port=8088, debug=True)
 
     # 关闭
     cur.close()

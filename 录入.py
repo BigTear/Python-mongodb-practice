@@ -16,7 +16,8 @@ def insertSingleChoose(question, answer, choicea, choiceb, choicec, choiced, raw
         cur.execute(sqltext)
         con.commit()
     except sqlite3.IntegrityError:
-        print('数据已存在,录入下一个')
+        #print('数据已存在,录入下一个')
+        return
     else:
         print(sqltext)
 
@@ -31,7 +32,7 @@ def insertSingleCheck(question, answer, rawnumber):
         cur.execute(sqltext)
         con.commit()
     except sqlite3.IntegrityError:
-        print('数据已存在,录入下一个')
+        #print('数据已存在,录入下一个')
         return
     else:
         print(sqltext)
